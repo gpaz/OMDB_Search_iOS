@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03673AB31AA40BC200455A07 /* OMDbObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03673AB21AA40BC200455A07 /* OMDbObject.swift */; };
+		03EA21D01AA4DC1300FBFA17 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03EA21CF1AA4DC1300FBFA17 /* placeholder.jpg */; };
 		03EA6A881AA39948002E7944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6A871AA39948002E7944 /* AppDelegate.swift */; };
 		03EA6A8A1AA39948002E7944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6A891AA39948002E7944 /* ViewController.swift */; };
 		03EA6A8D1AA39948002E7944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EA6A8B1AA39948002E7944 /* Main.storyboard */; };
 		03EA6A8F1AA39948002E7944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EA6A8E1AA39948002E7944 /* Images.xcassets */; };
 		03EA6A921AA39948002E7944 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EA6A901AA39948002E7944 /* LaunchScreen.xib */; };
 		03EA6A9E1AA39948002E7944 /* OMDbSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6A9D1AA39948002E7944 /* OMDbSearchTests.swift */; };
+		03EA6AAA1AA3ABDD002E7944 /* QueryResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6AA91AA3ABDD002E7944 /* QueryResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03673AB21AA40BC200455A07 /* OMDbObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMDbObject.swift; sourceTree = "<group>"; };
+		03EA21CF1AA4DC1300FBFA17 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		03EA6A821AA39948002E7944 /* OMDbSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDbSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EA6A861AA39948002E7944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EA6A871AA39948002E7944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		03EA6A971AA39948002E7944 /* OMDbSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDbSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EA6A9C1AA39948002E7944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EA6A9D1AA39948002E7944 /* OMDbSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDbSearchTests.swift; sourceTree = "<group>"; };
+		03EA6AA91AA3ABDD002E7944 /* QueryResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		03EA6A841AA39948002E7944 /* OMDbSearch */ = {
 			isa = PBXGroup;
 			children = (
+				03EA21CF1AA4DC1300FBFA17 /* placeholder.jpg */,
 				03EA6A871AA39948002E7944 /* AppDelegate.swift */,
 				03EA6A891AA39948002E7944 /* ViewController.swift */,
+				03EA6AA91AA3ABDD002E7944 /* QueryResultsController.swift */,
+				03673AB21AA40BC200455A07 /* OMDbObject.swift */,
 				03EA6A8B1AA39948002E7944 /* Main.storyboard */,
 				03EA6A8E1AA39948002E7944 /* Images.xcassets */,
 				03EA6A901AA39948002E7944 /* LaunchScreen.xib */,
@@ -193,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EA6A8D1AA39948002E7944 /* Main.storyboard in Resources */,
+				03EA21D01AA4DC1300FBFA17 /* placeholder.jpg in Resources */,
 				03EA6A921AA39948002E7944 /* LaunchScreen.xib in Resources */,
 				03EA6A8F1AA39948002E7944 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03673AB31AA40BC200455A07 /* OMDbObject.swift in Sources */,
+				03EA6AAA1AA3ABDD002E7944 /* QueryResultsController.swift in Sources */,
 				03EA6A8A1AA39948002E7944 /* ViewController.swift in Sources */,
 				03EA6A881AA39948002E7944 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +417,7 @@
 				03EA6AA31AA39948002E7944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03EA6AA41AA39948002E7944 /* Build configuration list for PBXNativeTarget "OMDbSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				03EA6AA61AA39948002E7944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
